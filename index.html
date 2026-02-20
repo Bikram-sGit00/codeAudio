@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>CodeAudio.com-Web Music Player</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left ">
+            <img class="invert" id="close" src="ham.png" alt="">
+            <div class="home rounded bg-grey m-1 p-1">
+                <div class="logo-text glow"><img id="logo" src="IMG_20240503_204153.jpg" alt="logo">codeAudio.com <img
+                        id="logo-ham" src="Animation - 1715750868399.gif" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="library rounded bg-grey m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h3>Your Library</h3>
+                    <div class="volume">
+                        <img class="bar-control invert" src="graph-bar.png" alt="">
+                        <!-- <input type="range" class="range"> -->
+                        <div class="volumeBar"></div>
+                    </div>
+                </div>
+                <div class="songList">
+                    <ul>
+                        <!-- Fill By Js -->
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href=""><span>Legal</span></a></div> <!--Add anchor when needed -->
+                    <div><a href=""><span>Privacy</span></a></div> <!--Add anchor when needed -->
+                    <div><a href=""><span>Cookies</span></a></div> <!--Add anchor when needed -->
+                    <div><a href=""><span>About</span></a></div> <!--Add anchor when needed -->
+                    <div><a href=""><span>instagram</span></a></div> <!--Add anchor when needed -->
+                    <div><a href=""><span>Accessibility</span></a></div> <!--Add anchor when needed -->
+                </div>
+            </div>
+        </div>
+        <div class="right rounded bg-grey p-1">
+            <div class="header">
+                <div class="nav">
+                    <div class="main-nav flex invert">
+                        <img id="ham" src="ham.png" alt="">
+                        <img src="left.png" alt="">
+                        <img src="right.png" alt="">
+                    </div>
+                </div>
+                <div class="sanskrit glow">
+                    संगीतं परमानन्दं संगीतं परमं दयालुम्!💫
+                </div>
+                <div class="buttons">
+                    <button id="login">Login</button>
+                </div>
+            </div>
+            <div class="playlist">
+                <h2>Tracklist</h2>
+                <div class="cardContainer">
+
+
+
+
+
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="bar">
+                    <div class="songInfo">
+                    </div>
+                    <div class="songButtons">
+                        <img class="invert" src="8839055.png" id="prev" width="20px">
+                        <img src="play-button.png" id="play" width="21px">
+                        <img class="invert" src="3567831.png" id="next" width="20px">
+                    </div>
+                    <div class="songTime">
+
+                    </div>
+                </div>
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
