@@ -31,4 +31,4 @@
 
 ## 💭 Note
 
-Made this back when I was just messing around with code and learning the basics, so don't expect production-level polish. Sharing it mainly to show where I started.
+Made this back when I was just messing around with code and learning the basics (2023), so don't expect production-level polish. Sharing it mainly to show where I started.
